@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4; }
+
+.art {
+  background-color: #b9b9b9;
+  padding: 8px;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.dark {
+  background-color: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: 20px; }
+
+.button_1 {
+  height: 37px;
+  background: #e8491d;
+  border: 0;
+  color: #ffffff;
+  padding: 0 20px; }
+  .button_1:hover {
+    opacity: 0.9; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.current {
+  color: #e8491d;
+  font-weight: bold; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; }
+
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid; }
+  header a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none; }
+    header a:hover {
+      opacity: 0.7; }
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px; }
+  header #branding {
+    float: left; }
+    header #branding h1 {
+      margin: 0; }
+  header nav {
+    float: right;
+    margin-top: 12px; }
+
+#showcase {
+  min-height: 400px;
+  background: url("../img/showcase.jpg") no-repeat 0 -400px;
+  text-align: center;
+  color: #ffffff; }
+  #showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px; }
+  #showcase p {
+    font-size: 20px; }
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a; }
+  #newsletter h1 {
+    float: left; }
+  #newsletter form {
+    float: right;
+    margin-top: 15px; }
+  #newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px; }
+
+#boxes {
+  margin-top: 20px; }
+  #boxes .box {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    text-align: center; }
+    #boxes .box img {
+      width: 90px; }
+
+#main #sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 20px; }
+  #main #sidebar .quote h3 {
+    align-self: center; }
+  #main #sidebar .quote label {
+    float: left;
+    margin-left: 10px; }
+  #main #sidebar .quote input, #main #sidebar .quote textarea {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 0;
+    width: 90%;
+    margin-bottom: 4px; }
+#main article#main-col {
+  float: left;
+  width: 65%;
+  padding: 20px; }
+  #main article#main-col ul {
+    list-style: none; }
+
+footer {
+  padding: 10px;
+  color: #ffffff;
+  background: #e8491d;
+  text-align: center;
+  margin-top: 20px; }
+
+@media (max-width: 686px) {
+  header {
+    padding-bottom: 20px; }
+    header #branding, header nav, header nav li {
+      float: none;
+      text-align: center;
+      width: 100%; }
+
+  #showcase h1 {
+    margin-top: 40px; }
+
+  #newsletter h1, #newsletter form, #newsletter input {
+    float: none;
+    text-align: center;
+    margin: 5px 0; }
+
+  #boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding: 0; }
+
+  #main article#main-col, #main aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+  #main aside#sidebar {
+    padding: 10px 0; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,255 @@
+$current: #e8491d;
+$dark-back :#35424a;
+$text-color : #ffffff;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.art{
+  background-color: #b9b9b9;
+  padding: 8px;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dark{
+  background-color:#35424a;
+  color: $text-color;
+  text-align: center;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.button_1{
+  height: 37px;
+  background: $current;
+  border: 0;
+  color: $text-color;
+  padding: 0 20px;
+
+  &:hover{
+    opacity: 0.9;
+  }
+
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.current{
+  color: $current;
+  font-weight: bold;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ header{
+  background-color: $dark-back;
+  color: $text-color;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: $current 3px solid;
+
+  a{
+    color: $text-color;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+
+  li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+  }
+
+  #branding{
+    float: left;
+
+    h1{
+      margin: 0;
+    }
+
+  }
+
+   nav{
+     float: right;
+     margin-top: 12px;
+   }
+
+}
+
+ #showcase{
+   min-height: 400px;
+   background: url("../img/showcase.jpg") no-repeat 0 -400px;
+   text-align: center;
+   color : $text-color;
+
+   h1{
+     margin-top: 100px;
+     font-size: 55px;
+     margin-bottom: 10px;
+   }
+
+   p{
+     font-size: 20px;
+   }
+ }
+
+ #newsletter{
+   padding: 15px;
+   color: $text-color;
+   background: $dark-back;
+
+   h1{
+     float: left;
+   }
+   form{
+     float: right;
+     margin-top: 15px;
+   }
+
+   input{
+     padding: 4px;
+     height: 25px;
+     width: 250px;
+   }
+ }
+
+ #boxes{
+   margin-top: 20px;
+
+   .box{
+     float: left;
+     width: 30%;
+     padding: 15px;
+     text-align: center;
+
+     img{
+       width: 90px;
+     }
+   }
+ }
+
+
+ #main {
+   #sidebar{
+     float: right;
+     width: 30%;
+     margin-top: 20px;
+
+     .quote {
+
+       h3{
+         align-self: center;
+       }
+
+       label{
+         float: left;
+         margin-left: 10px;
+       }
+
+       input, textarea {
+         padding: 5px 10px;
+         border-radius: 3px;
+         border: 0;
+         width: 90%;
+         margin-bottom: 4px;
+       }
+     }
+
+   }
+
+   article#main-col {
+     float: left;
+     width: 65%;
+     padding: 20px;
+
+     ul{
+       list-style: none;
+     }
+
+   }
+
+ }
+ 
+ footer{
+   padding: 10px;
+   color: $text-color;
+   background: $current;
+   text-align: center;
+   margin-top: 20px;
+ }
+
+ @media (max-width: 686px) {
+   header {
+     #branding,nav, nav li{
+       float: none;
+       text-align: center;
+       width: 100%;
+     }
+     padding-bottom: 20px;
+   }
+
+   #showcase {
+     h1 {
+       margin-top: 40px;
+     }
+   }
+   #newsletter {
+     h1, form, input {
+       float: none;
+       text-align: center;
+       margin: 5px 0;
+     }
+
+   }
+
+   #boxes .box{
+     float: none;
+     text-align: center;
+     width: 100%;
+     padding: 0;
+
+   }
+
+   #main{
+     article#main-col, aside#sidebar  {
+       float: none;
+       text-align: center;
+       width: 100%;
+       padding: 0;
+       margin: 0;
+     }
+     aside#sidebar {
+       padding: 10px 0;
+     }
+
+
+
+
+
+   }
+
+
+
+
+
+ }
