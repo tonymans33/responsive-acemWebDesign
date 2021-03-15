@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8746a167-811d-49a0-bba0-b21b57fb6298" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cpanel.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.cpanel.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,25 +49,34 @@
       <option name="presentableId" value="Default" />
       <updated>1593349747322</updated>
       <workItem from="1593349748537" duration="10152000" />
-      <workItem from="1615726580579" duration="60000" />
+      <workItem from="1615726580579" duration="854000" />
+      <workItem from="1615805640218" duration="30000" />
     </task>
+    <task id="LOCAL-00001" summary="adding cpanel yml">
+      <created>1615726821952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615726821953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding cpanel yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding cpanel yml" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="405" y="210" key="EditFileWatcherDialog" timestamp="1593349816679">
+    <state x="382" y="27" key="CommitChangelistDialog2" timestamp="1615726821183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="405" y="210" key="EditFileWatcherDialog/0.0.1536.864@0.0.1536.864" timestamp="1593349816679" />
-    <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1593349815602">
+    <state x="382" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1615726821183" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1615726834706">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1593349815602" />
-    <state x="174" y="200" key="run.anything.popup" timestamp="1593372752587">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="174" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1593372752587" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1615726834706" />
   </component>
 </project>
