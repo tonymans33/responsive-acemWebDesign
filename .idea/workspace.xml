@@ -50,7 +50,7 @@
       <updated>1593349747322</updated>
       <workItem from="1593349748537" duration="10152000" />
       <workItem from="1615726580579" duration="854000" />
-      <workItem from="1615805640218" duration="30000" />
+      <workItem from="1615805640218" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="adding cpanel yml">
       <created>1615726821952</created>
@@ -59,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615726821953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deployment test">
+      <created>1615805681930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615805681930</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,16 +74,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding cpanel yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding cpanel yml" />
+    <MESSAGE value="deployment test" />
+    <option name="LAST_COMMIT_MESSAGE" value="deployment test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="382" y="27" key="CommitChangelistDialog2" timestamp="1615726821183">
+    <state x="382" y="27" key="CommitChangelistDialog2" timestamp="1615805681176">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="382" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1615726821183" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1615726834706">
+    <state x="382" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1615805681176" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1615805688053">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1615726834706" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1615805688053" />
   </component>
 </project>
